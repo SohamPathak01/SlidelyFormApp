@@ -57,30 +57,34 @@ Partial Class CreateSubmissionForm
         '
         'TextBoxName
         '
+        Me.TextBoxName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.TextBoxName.Location = New System.Drawing.Point(400, 68)
         Me.TextBoxName.Name = "TextBoxName"
-        Me.TextBoxName.Size = New System.Drawing.Size(260, 22)
+        Me.TextBoxName.Size = New System.Drawing.Size(260, 26)
         Me.TextBoxName.TabIndex = 3
         '
         'TextBoxEmail
         '
+        Me.TextBoxEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.TextBoxEmail.Location = New System.Drawing.Point(400, 121)
         Me.TextBoxEmail.Name = "TextBoxEmail"
-        Me.TextBoxEmail.Size = New System.Drawing.Size(260, 22)
+        Me.TextBoxEmail.Size = New System.Drawing.Size(260, 26)
         Me.TextBoxEmail.TabIndex = 4
         '
         'TextBoxPhoneNum
         '
+        Me.TextBoxPhoneNum.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.TextBoxPhoneNum.Location = New System.Drawing.Point(400, 169)
         Me.TextBoxPhoneNum.Name = "TextBoxPhoneNum"
-        Me.TextBoxPhoneNum.Size = New System.Drawing.Size(260, 22)
+        Me.TextBoxPhoneNum.Size = New System.Drawing.Size(260, 26)
         Me.TextBoxPhoneNum.TabIndex = 5
         '
         'TextBoxGithubLink
         '
+        Me.TextBoxGithubLink.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
         Me.TextBoxGithubLink.Location = New System.Drawing.Point(400, 236)
         Me.TextBoxGithubLink.Name = "TextBoxGithubLink"
-        Me.TextBoxGithubLink.Size = New System.Drawing.Size(260, 22)
+        Me.TextBoxGithubLink.Size = New System.Drawing.Size(260, 26)
         Me.TextBoxGithubLink.TabIndex = 6
         '
         'Timer1

@@ -40,11 +40,16 @@ Public Class ViewSubmissionsForm
 
     Private Sub DisplaySubmission()
         If currentSubmission IsNot Nothing Then
-            LabelName.Text = "Name: " & currentSubmission.Name
-            LabelEmail.Text = "Email: " & currentSubmission.Email
-            LabelPhoneNum.Text = "Phone Number: " & currentSubmission.PhoneNum
-            LabelGithubLink.Text = "GitHub Link: " & currentSubmission.GithubLink
-            LabelStopwatchTime.Text = "Stopwatch Time: " & currentSubmission.StopwatchTime
+            LabelName.Text = "Name: "
+            TextBoxName.Text = currentSubmission.Name
+            LabelEmail.Text = "Email: "
+            TextBoxEmail.Text = currentSubmission.Email
+            LabelPhoneNum.Text = "Phone Number: "
+            TextBoxNo.Text = currentSubmission.PhoneNum
+            LabelGithubLink.Text = "GitHub Link: "
+            TextBoxGH.Text = currentSubmission.GithubLink
+            LabelStopwatchTime.Text = "Stopwatch Time: "
+            TextBoxST.Text = currentSubmission.StopwatchTime
         End If
     End Sub
 

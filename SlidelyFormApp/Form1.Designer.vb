@@ -18,10 +18,11 @@ Partial Class Form1
         'ButtonViewSubmissions
         '
         Me.ButtonViewSubmissions.BackColor = System.Drawing.Color.Khaki
+        Me.ButtonViewSubmissions.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
         Me.ButtonViewSubmissions.ForeColor = System.Drawing.Color.Black
-        Me.ButtonViewSubmissions.Location = New System.Drawing.Point(12, 12)
+        Me.ButtonViewSubmissions.Location = New System.Drawing.Point(303, 114)
         Me.ButtonViewSubmissions.Name = "ButtonViewSubmissions"
-        Me.ButtonViewSubmissions.Size = New System.Drawing.Size(260, 50)
+        Me.ButtonViewSubmissions.Size = New System.Drawing.Size(354, 50)
         Me.ButtonViewSubmissions.TabIndex = 0
         Me.ButtonViewSubmissions.Text = "View Submissions (ctrl+V)"
         Me.ButtonViewSubmissions.UseVisualStyleBackColor = False
@@ -29,16 +30,17 @@ Partial Class Form1
         'ButtonCreateSubmission
         '
         Me.ButtonCreateSubmission.BackColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ButtonCreateSubmission.Location = New System.Drawing.Point(12, 68)
+        Me.ButtonCreateSubmission.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!)
+        Me.ButtonCreateSubmission.Location = New System.Drawing.Point(303, 234)
         Me.ButtonCreateSubmission.Name = "ButtonCreateSubmission"
-        Me.ButtonCreateSubmission.Size = New System.Drawing.Size(260, 50)
+        Me.ButtonCreateSubmission.Size = New System.Drawing.Size(354, 50)
         Me.ButtonCreateSubmission.TabIndex = 1
-        Me.ButtonCreateSubmission.Text = "Create New Submission"
+        Me.ButtonCreateSubmission.Text = "Create New Submission (ctrl+N)"
         Me.ButtonCreateSubmission.UseVisualStyleBackColor = False
         '
         'Form1
         '
-        Me.ClientSize = New System.Drawing.Size(284, 131)
+        Me.ClientSize = New System.Drawing.Size(924, 400)
         Me.Controls.Add(Me.ButtonCreateSubmission)
         Me.Controls.Add(Me.ButtonViewSubmissions)
         Me.Name = "Form1"

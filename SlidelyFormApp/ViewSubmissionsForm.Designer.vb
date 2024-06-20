@@ -17,6 +17,11 @@ Partial Class ViewSubmissionsForm
         Me.LabelPhoneNum = New System.Windows.Forms.Label()
         Me.LabelGithubLink = New System.Windows.Forms.Label()
         Me.LabelStopwatchTime = New System.Windows.Forms.Label()
+        Me.TextBoxName = New System.Windows.Forms.TextBox()
+        Me.TextBoxEmail = New System.Windows.Forms.TextBox()
+        Me.TextBoxNo = New System.Windows.Forms.TextBox()
+        Me.TextBoxGH = New System.Windows.Forms.TextBox()
+        Me.TextBoxST = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'ButtonPrevious
@@ -89,10 +94,60 @@ Partial Class ViewSubmissionsForm
         Me.LabelStopwatchTime.TabIndex = 6
         Me.LabelStopwatchTime.Text = "Stopwatch Time:"
         '
+        'TextBoxName
+        '
+        Me.TextBoxName.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.TextBoxName.Location = New System.Drawing.Point(253, 56)
+        Me.TextBoxName.Name = "TextBoxName"
+        Me.TextBoxName.ReadOnly = True
+        Me.TextBoxName.Size = New System.Drawing.Size(378, 26)
+        Me.TextBoxName.TabIndex = 7
+        '
+        'TextBoxEmail
+        '
+        Me.TextBoxEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.TextBoxEmail.Location = New System.Drawing.Point(253, 106)
+        Me.TextBoxEmail.Name = "TextBoxEmail"
+        Me.TextBoxEmail.ReadOnly = True
+        Me.TextBoxEmail.Size = New System.Drawing.Size(378, 26)
+        Me.TextBoxEmail.TabIndex = 8
+        '
+        'TextBoxNo
+        '
+        Me.TextBoxNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.TextBoxNo.Location = New System.Drawing.Point(253, 153)
+        Me.TextBoxNo.Name = "TextBoxNo"
+        Me.TextBoxNo.ReadOnly = True
+        Me.TextBoxNo.Size = New System.Drawing.Size(378, 26)
+        Me.TextBoxNo.TabIndex = 9
+        '
+        'TextBoxGH
+        '
+        Me.TextBoxGH.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.TextBoxGH.Location = New System.Drawing.Point(253, 210)
+        Me.TextBoxGH.Name = "TextBoxGH"
+        Me.TextBoxGH.ReadOnly = True
+        Me.TextBoxGH.Size = New System.Drawing.Size(378, 26)
+        Me.TextBoxGH.TabIndex = 10
+        '
+        'TextBoxST
+        '
+        Me.TextBoxST.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
+        Me.TextBoxST.Location = New System.Drawing.Point(253, 266)
+        Me.TextBoxST.Name = "TextBoxST"
+        Me.TextBoxST.ReadOnly = True
+        Me.TextBoxST.Size = New System.Drawing.Size(378, 26)
+        Me.TextBoxST.TabIndex = 11
+        '
         'ViewSubmissionsForm
         '
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(643, 467)
+        Me.Controls.Add(Me.TextBoxST)
+        Me.Controls.Add(Me.TextBoxGH)
+        Me.Controls.Add(Me.TextBoxNo)
+        Me.Controls.Add(Me.TextBoxEmail)
+        Me.Controls.Add(Me.TextBoxName)
         Me.Controls.Add(Me.LabelStopwatchTime)
         Me.Controls.Add(Me.LabelGithubLink)
         Me.Controls.Add(Me.LabelPhoneNum)
@@ -114,4 +169,9 @@ Partial Class ViewSubmissionsForm
     Friend WithEvents LabelPhoneNum As Label
     Friend WithEvents LabelGithubLink As Label
     Friend WithEvents LabelStopwatchTime As Label
+    Friend WithEvents TextBoxName As TextBox
+    Friend WithEvents TextBoxEmail As TextBox
+    Friend WithEvents TextBoxNo As TextBox
+    Friend WithEvents TextBoxGH As TextBox
+    Friend WithEvents TextBoxST As TextBox
 End Class
